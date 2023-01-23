@@ -1,17 +1,19 @@
-<%-- 
-    Document   : signup
-    Created on : Jan 21, 2023, 5:52:54 PM
-    Author     : gilles
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+
+        <title>HOME</title>
     </head>
     <body>
-        <h1>Sign Up OK !</h1>
+
+        <jsp:directive.include file="part/header.jsp"/>
+        
+
+
+        <jsp:directive.include file="part/footer.jsp"/>
     </body>
 </html>
