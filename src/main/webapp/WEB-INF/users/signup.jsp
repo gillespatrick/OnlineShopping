@@ -18,7 +18,7 @@
         </div>
         <br>
         <div class="container-fluid col-3">
-            <form action="" method="post" >
+            <form action="registration" method="post" >
                 <fieldset class="form-group">
                     <input type="text" class="form-control" name="name" required placeholder="Enter Name">
                 </fieldset><br>
@@ -26,7 +26,7 @@
                     <input type="email"  class="form-control" name="email" placeholder="Enter Email" required>
                 </fieldset><br>
                 <fieldset class="form-group">
-                    <input type="number" class="form-control" name="mobilenumber" placeholder="Enter Mobile Number" required>
+                    <input type="text" class="form-control" name="mobilenumber" placeholder="Enter Mobile Number" required>
                 </fieldset><br>
                 <fieldset class="form-group">
                     <select class="form-select" name="security" required>
@@ -43,9 +43,24 @@
                 <fieldset class="form-group">
                     <input type="password"  class="form-control" name="password" placeholder="Enter Password" required>
                 </fieldset><br>
-                <button type="submit" value="signup" class="btn btn-success"> <i class="bi bi-box-arrow-down"></i>
+                <fieldset class="form-group">
+                    <input type="text"  class="form-control" name="address" placeholder="Enter Address" required>
+                </fieldset><br>
+                <fieldset class="form-group">
+                    <input type="text"  class="form-control" name="apt" placeholder="Enter Appartement Number (Optional)">
+                </fieldset><br>
+                <fieldset class="form-group">
+                    <input type="text"  class="form-control" name="city" placeholder="Enter City" required>
+                </fieldset><br>
+                <fieldset class="form-group">
+                    <input type="text"  class="form-control" name="state" placeholder="Enter State" required>
+                </fieldset><br>
+                <fieldset class="form-group">
+                    <input type="text"  class="form-control" name="codeZip" placeholder="Enter Zip Code" required>
+                </fieldset><br>
+                <button type="submit" class="btn btn-success"> <i class="bi bi-box-arrow-down"></i>
                         Save </button><br>
-                    <a  href="signin">  Already have Account ?</a> 
+                    <a  href="login">  Already have Account ?</a> 
             </form>
         </div>
         <br><br><br>

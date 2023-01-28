@@ -8,7 +8,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="home">Online Shopping</a>
+        <a class="navbar-brand" href=" home" >Online Shopping</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
            
         </button>
@@ -16,11 +16,12 @@
             <ul class="navbar-nav me-auto">
 
                 <li class="nav-item active">
-                    <a class="nav-link active" href="signup"> SIGN UP</a>
+                    <a class="nav-link active" href="registration"> SIGN UP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"> PENDING</a>
+                    <a class="nav-link active" href="login"> SIGN IN</a>
                 </li>
+                
 
 
             </ul>
